@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.page-header {
+    font-size: 32px;
+}
+
+.recipe-link{
+    color: #950506;
+    font-size: 26px;
+}
+
+.description {
+    background-color: antiquewhite;
+    color: #950506;
+}
+
+.list {
+    font-weight: 400;
+}
+
+.sublist {
+    font-weight: 150;
+}
+
+li {
+    color: #950506;
+}
+
+/* list, sublist, description */
+
