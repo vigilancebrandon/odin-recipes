@@ -1,28 +1,40 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .page-header {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .recipe-link{
     color: #950506;
     font-size: 26px;
+    text-align: center;
 }
 
+button,
 .description {
     background-color: antiquewhite;
     color: #950506;
 }
 
+button {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.description {
+    text-align: center;
+}
+
 .list {
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 .sublist {
-    font-weight: 150;
+    font-weight: bold;
 }
 
 li {
