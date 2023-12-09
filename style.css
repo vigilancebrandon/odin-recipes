@@ -5,6 +5,7 @@
 
 .page-header {
     font-size: 36px;
+    text-align: center;
 }
 
 div {
@@ -12,23 +13,29 @@ div {
     align-items: center;
     justify-content: center;
 }
+
 .recipe-link{
     color: #950506;
     font-size: 26px;
 }
 
 button,
-.description {
+.description,
+.page-header {
     background-color: antiquewhite;
     color: #950506;
 }
 
-button {
+button { /*would like to center the back to home buttons...*/
     font-size: 20px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .description {
+    font-size: 24px;
     text-align: center;
 }
 
