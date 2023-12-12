@@ -41,9 +41,7 @@ div > img {
 
 #main-recipes > a {
     background-color: rgba(250, 234, 214, 1);
-    /*background-color: antiquewhite;*/
     color: #950506;
-    font-size: ;
     text-align: center;
     display: block;
     padding: 12px;
@@ -61,9 +59,7 @@ button,
 }
 
 button {
-    font-size: ;
     display: block;
-    border-color: ;
     margin: 18px auto
 }
 
