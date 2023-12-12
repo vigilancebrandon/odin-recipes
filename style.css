@@ -1,6 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: ;
 }
 
 .page-header {
@@ -10,47 +19,58 @@
 
 div > img {
     display: block;
+    border: 6px;
+    border-color:#950506;
+    border-style: solid;
     margin: auto;
+   
 }
 
 .recipes-list {
-    display: flex;
+    display: block;
+    margin: auto;
+    width: 80%;
 }
 
 .recipes-list > a {
-    background-color: antiquewhite;
+    background-color: ;
+    color: #950506;
+    font-size: 16px;
     text-align: center;
-    display: inline-block;
+    display: flex;
     padding: 12px;
     border: 2px;
     border-color: #950506;
+    border-style: solid;
     margin: 32px;
 
-}
-
-.recipe-link{
-    color: #950506;
-    font-size: 26px;
 }
 
 button,
 .description,
 .page-header {
-    background-color: antiquewhite;
     color: #950506;
+    padding: 8px;
+    margin: 12px auto;
+    width: 500;
 }
 
-button { /*would like to center the back to home buttons...*/
+button {
     font-size: 20px;
     font-weight: 500;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    border-color: ;
 }
 
-.description {
+.description-card {
+    background-color: white;
+
+}
+
+.description > p {
     font-size: 24px;
     text-align: center;
+
 }
 
 .list {
