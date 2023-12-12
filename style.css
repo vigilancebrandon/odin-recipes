@@ -8,10 +8,24 @@
     text-align: center;
 }
 
-div {
+div > img {
+    display: block;
+    margin: auto;
+}
+
+.recipes-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.recipes-list > a {
+    background-color: antiquewhite;
+    text-align: center;
+    display: inline-block;
+    padding: 12px;
+    border: 2px;
+    border-color: #950506;
+    margin: 32px;
+
 }
 
 .recipe-link{
