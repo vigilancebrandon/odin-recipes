@@ -26,18 +26,18 @@ div > img {
    
 }
 
-.recipes-list {
+#main-recipes {
     display: block;
     margin: auto;
-    width: 80%;
+    width: 75%;
 }
 
-.recipes-list > a {
-    background-color: ;
+#main-recipes > a {
+    background-color: ?;
     color: #950506;
-    font-size: 16px;
+    font-size: ;
     text-align: center;
-    display: flex;
+    display: block;
     padding: 12px;
     border: 2px;
     border-color: #950506;
@@ -46,45 +46,30 @@ div > img {
 
 }
 
-button,
-.description,
+.home-button,
+.inlay,
 .page-header {
     color: #950506;
-    padding: 8px;
-    margin: 12px auto;
-    width: 500;
 }
 
-button {
-    font-size: 20px;
-    font-weight: 500;
-    display: flex;
+.home-button {
+    font-size: ;
+    display: block;
     border-color: ;
+    margin: 18px auto
 }
 
-.description-card {
+.card {
+    background-color: antiquewhite;
+    display: block;
+}
+
+.card-title {
     background-color: white;
-
 }
 
-.description > p {
-    font-size: 24px;
-    text-align: center;
-
+.content {
 }
 
-.list {
-    font-size: 24px;
-    font-weight: bolder;
-}
-
-.sublist {
-    font-weight: bold;
-}
-
-li {
-    color: #950506;
-}
-
-/* list, sublist, description */
+/* card, inlay, contents */
 
