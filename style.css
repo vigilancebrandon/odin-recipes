@@ -4,12 +4,16 @@ html {
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
     box-sizing: inherit;
 }
 
 body {
-    background-color: ;
+    background-color: rgba(250, 234, 214, 0.5)
+}
+
+p,
+li {
+    font-size: 18px;
 }
 
 .page-header {
@@ -33,7 +37,8 @@ div > img {
 }
 
 #main-recipes > a {
-    background-color: ?;
+    background-color: rgba(250, 234, 214, 1);
+    /*background-color: antiquewhite;*/
     color: #950506;
     font-size: ;
     text-align: center;
@@ -47,7 +52,7 @@ div > img {
 }
 
 .home-button,
-.inlay,
+.card-title,
 .page-header {
     color: #950506;
 }
@@ -60,15 +65,29 @@ div > img {
 }
 
 .card {
-    background-color: antiquewhite;
-    display: block;
+    background-color: rgb(250, 234, 214, 0.6);
+    padding: 12px;
+    border: 2px;
+    border-color: #950506;
+    border-style: solid;
+    margin: 24px auto;
+    width: 80%
+
 }
 
 .card-title {
-    background-color: white;
+    text-align: center;
+    padding: 8px;
+    border: 2px;
+    border-color: #950506;
+    border-style: solid;
+    margin: 12px auto;
+    width: 80%;
 }
 
 .content {
+    background-color: rgb(250, 234, 214, 1);
+    border-style: double;
 }
 
 /* card, inlay, contents */
