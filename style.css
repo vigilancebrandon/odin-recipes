@@ -91,11 +91,5 @@ button {
     background-color: rgb(250, 234, 214, 1);
     border-style: double;
 }
-
-.page-links {
-    text-align: center;
-    padding: 8px;
-    margin: auto;
-}
 /* card, inlay, contents */
 
