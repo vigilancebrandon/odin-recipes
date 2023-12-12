@@ -59,6 +59,8 @@ button,
 }
 
 button {
+    background-color: antiquewhite;
+    font-size: 24px;
     display: block;
     margin: 18px auto
 }
@@ -90,5 +92,10 @@ button {
     border-style: double;
 }
 
+.page-links {
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+}
 /* card, inlay, contents */
 
